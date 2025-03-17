@@ -19,18 +19,9 @@ The goal is to make two terminals to communicate with one another using **Proces
 1. Run `make clean` to remove every object files.
 2. Run `make fclean` to remove every object files, including the executable.
 
-# ✨ Summary
+---
 
-|     |     |
-| --- | --- |
-| Program name | client, server |
-| Turn in files | Makefile, *.h, *.c |
-| Makefile | NAME, all, clean, fclean, re |
-| External functs. | write, [`ft_printf`](https://github.com/flmarsou/ft_printf), signal, sigemptyset, sigaddset, sigaction, kill, getpid, malloc, free, pause, sleep, usleep, exit |
-| [Libft](https://github.com/flmarsou/libft) authorized | Yes |
-| Description | Write a program for two terminal to exchange using UNIX signals. |
-
-# 📑 List of Functions
+# 📑 List of Files
 
 - [x] [`client`](https://github.com/flmarsou/minitalk/blob/main/src/client.c) - Sends signals to the server, waits for an acknowledgment, and returns.
 - [x] [`server`](https://github.com/flmarsou/minitalk/blob/main/src/server.c) - Waits for signals, prints once fully received, and sends an acknowledgment.
